@@ -1,0 +1,8 @@
+<component name="MainScene" extends="Scene">
+<script type="text/brightscript" uri = "pkg:/source/MarvelAPI.brs"/>
+    <children>
+        <Label id="title" text="Marvel Comics" translation="[100, 50]" />
+        <ComicGrid id="comicGrid" translation="[100, 100]" />
+    </children>
+    <script type="text/brightscript" uri="MainScene.brs" />
+</component>

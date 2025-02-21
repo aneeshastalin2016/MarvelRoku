@@ -1,0 +1,28 @@
+<component name="CharacterCard" extends="Group">
+    <interface>
+        <field id="thumbnailUrl" type="string" />
+        <field id="name" type="string" />
+        <field id="description" type="string" />
+    </interface>
+    <children>
+        <Poster
+            id="thumbnail"
+            uri="pkg:/images/default.jpg"
+            width="150"
+            height="225"
+        />
+        <Label
+            id="nameLabel"
+            text="Character Name"
+            translation="[0, 230]"
+        />
+        <Label
+            id="descriptionLabel"
+            text="Character Description"
+            translation="[0, 260]"
+            width="150"
+            wrap="true"
+        />
+    </children>
+    <script type="text/brightscript" uri="characterCard.brs" />
+</component>

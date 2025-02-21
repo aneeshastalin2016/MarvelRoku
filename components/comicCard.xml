@@ -1,0 +1,15 @@
+<component name="ComicCard" extends="Group">
+  <interface>
+      <field id="thumbnailUrl" type="string" />
+      <field id="comicId" type="integer" />
+  </interface>
+  <children>
+      <Poster
+          id="thumbnail"
+          uri="pkg:/images/default.jpg"
+          width="150"
+          height="225"
+      />
+  </children>
+  <script type="text/brightscript" uri="comicCard.brs" />
+</component>

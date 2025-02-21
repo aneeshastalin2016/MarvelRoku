@@ -1,0 +1,16 @@
+<component name="ComicDetailScene" extends="Scene">
+    <script type="text/brightscript" uri = "pkg:/source/MarvelAPI.brs"/>
+    <interface>
+        <field id="comicId" type="integer" />
+    </interface>
+    <children>
+        <Label id="title" text="Comic Characters" />
+        <MarkupGrid
+            id="characterGrid"
+            translation="[0,50]"
+            itemSize="[150, 225]"
+            itemSpacing="[10, 10]"
+        />
+    </children>
+    <script type="text/brightscript" uri="comicDetailScene.brs" />
+</component>

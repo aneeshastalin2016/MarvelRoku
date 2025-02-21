@@ -1,0 +1,12 @@
+<component name="VideoPlayerScene" extends="Scene">
+    <children>
+        <Video
+            id="video"
+            uri="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            width="1280"
+            height="720"
+            translation="[0, 0]"
+        />
+    </children>
+    <script type="text/brightscript" uri="videoPlayerScene.brs" />
+</component>

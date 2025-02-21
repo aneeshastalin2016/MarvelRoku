@@ -1,0 +1,16 @@
+<component name="ComicGrid" extends="Group">
+  <interface>
+      <field id="comicThumbnails" type="array" />
+  </interface>
+  <children>
+      <Rowlist
+          id="comicGrid"
+          translation="[0,0]"
+          itemSize="[150, 225]"
+          itemSpacing="[10, 10]"
+          numRows="3"
+          numColumns="4"
+      />
+  </children>
+  <script type="text/brightscript" uri="comicGrid.brs" />
+</component>
