@@ -10,5 +10,6 @@ sub init()
         })
     end for
 
+    
     m.comicGrid.comicThumbnails = comicThumbnails
 end sub
